@@ -10,7 +10,6 @@ with open("input.txt", "r") as file:
 
         for i in comp1:
             if i in comp2:
-                print(f"{i}: {priorities.index(i)}")
                 sum += priorities.index(i)
                 break
     print(sum)
